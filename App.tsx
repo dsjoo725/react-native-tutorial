@@ -1,10 +1,13 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {View} from 'react-native';
+import LotsOfGreetings from './components/tutorials/HelloProps';
+import {HelloWorld} from './components/tutorials/HelloWorld';
 
 export const App = () => {
   return (
     <View>
-      <Text>asd</Text>
+      <LotsOfGreetings />
+      <HelloWorld />
     </View>
   );
 };
